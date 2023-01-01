@@ -1,0 +1,61 @@
+/* sayfayı ortalıyoruz */
+body {
+    text-align: center;
+}
+
+/* arama yapılan alan */
+.search-section {
+    background-color: #EEEEEE;
+    width: 90%;
+    margin: auto;
+}
+
+.search-bar {
+    width: 300px;
+}
+
+/* footer */ 
+
+.container {
+    padding-top: 2px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.container > div {
+    margin-right: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.special-search {
+    height: 120px;
+    float: left;
+    height: 100px;
+    width: 33%;
+    background-color: #7EE5DA;
+}
+
+.links {
+    font-size: 12px;
+    height: 120px;
+    float: left;
+    height: 100px;
+    width: 33%;
+    background-color: #70CCC2;
+}
+
+.newsletter {
+    font-size: 12px;
+    float: left;
+    height: 100px;
+    width: 33%;
+    background-color: #62B3AA;
+}
+
+.footer {
+    font-size: 12px;
+}
