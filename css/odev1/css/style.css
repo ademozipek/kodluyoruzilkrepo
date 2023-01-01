@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.logo {
+    margin: 30px 0px;
+    height: 128px;
+}
+
+h1 {
+    color: #F95959;
+}
+
+li {
+    padding: 0px 12px;
+    list-style-position: inside;
+    display:inline-block;
+    color: #F95959;
+    font-weight: bold;
+}
+
+.gallery img {
+    height: 200px;
+    width: 400px;
+    border: 2px solid #233142;
+    border-radius: 15px;
+}
