@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Tanımlaması -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Google Fonts Tanımlaması -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Kanit";
+            text-align: center;
+            background-color: #A2B5BB;
+        }
+        li {
+            list-style-type: none;
+            display: inline-block;
+            font-size: 24px;
+            border-radius: 8px;
+        }
+        a {
+            text-decoration: none;
+            color: #A62349;
+        }
+    </style>
+    <title>NEF Stadyumu</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col p-5">
+                    <img style="width:150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Galatasaray_Sports_Club_Logo.png/822px-Galatasaray_Sports_Club_Logo.png" alt="Galatasaray Logosu">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="container">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li class="bg-warning me-4 px-4"><a href="index.html">Anasayfa</a></li>
+                    <li class="bg-warning me-4 px-4"><a href="stadyum.html">NEF Stadyumu</a></li>
+                    <li class="bg-warning px-4"><a href="kulup.html">Kulüp Tarihi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main>
+        <section class="container mt-4">
+            <div class="row">
+                <h1 class="text-danger">NEF Stadyumu</h1>
+                <!-- Görseli Responsive ve Çerçeveli Ayarlıyoruz -->
+                <img class="img-fluid img-thumbnail" src="https://hlkiurt3.rocketcdn.com/staticpages/4a983a4aee46453da36593c08d99b45b.jpeg" alt="NEF Stadyumu">
+
+                <p>15 Ocak 2011’de Galatasaray-Ajax maçı ile muhteşem bir açılışa sahne olan Ali Sami Yen Spor Kompleksi Nef Stadyumu; Almanya-Stuttgart kökenli ASP (Arat-Siegel + Partner) bürosunun koordine ettiği bir konsorsiyum tarafından planlamıştır. Teknik, mekanik ve elektrik projesi; Obermeyer, statiği ise SBP firması tarafından hazırlanmıştır. Her üç planlama bürosu daha önce stadyum inşa etmiş ve spor yapılarında çok deneyimli plancılar olup, ekibin başında Mimar Mete Arat bulunmaktadır.</p>
+            </div>
+            <div class="row">
+                <!-- Responsive bir görünüm kazandırıyoruz ve Card yapısı kullanarak foto galeri hazırlamayı tercih ettim -->
+                <h1 class="text-danger">Foto Galeri</h1>
+                <div class="col-sm-2 col-md-3 col-lg-4 col-xl-6 d-flex w-100">
+                    <div class="card mb-4">
+                        <img class="img-fluid img-thumbnail" src="img/nef1.jpg" alt="NEF Stadyumu Koreografi 1">
+                        <div class="card-body">
+                        <p class="card-text">NEF Stadyumu Koreografi 1</p>
+                      </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img class="img-fluid img-thumbnail" src="img/nef2.jpg" alt="NEF Stadyumu Koreografi 2">
+                        <div class="card-body">
+                        <p class="card-text">NEF Stadyumu Koreografi 2</p>
+                      </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img class="img-fluid img-thumbnail" src="img/nef3.jpg" alt="NEF Stadyumu Koreografi 3">
+                        <div class="card-body">
+                        <p class="card-text">NEF Stadyumu Koreografi 3</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p class="fst-italic fw-lighter">Galatasaray Spor Kulübü - 2023</p>
+     </footer>
+</body>
+</html>
