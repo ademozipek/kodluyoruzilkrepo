@@ -13,6 +13,7 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
+  background-image: url;
   background-repeat: no-repeat;
   background-size: 7%;
 }
